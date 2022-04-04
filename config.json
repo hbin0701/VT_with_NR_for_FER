@@ -1,0 +1,16 @@
+{
+  "_comment": "configurations for dataLoaders, aligned is only for raf-db.",
+  "batch_size": 64,
+  "resize": "True",
+  "data_dir": "./data",
+  "dataset": "ferplus",
+  "_comment2": "configurations for training",
+  "model": "models.SwinT.VanillaSwinT",
+  "exp_name": "SwinT_Base_Ferplus_DIC_LTR_FPDLS_0.8_Hard_DA",
+  "criterion": "utils.losses.FocalLabelSmoothingLossDis",
+  "optimizer": "torch.optim.Adam",
+  "lr": 1e-4,
+  "scheduler": "torch.optim.lr_scheduler.StepLR",
+  "num_epochs": 100,
+  "n_classes": 8
+}
