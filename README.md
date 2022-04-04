@@ -3,13 +3,13 @@
 
 **Pytorch implemenatation of Vision Transformer Equipped with Nerual Resizer on Facial Expression Recognition Task**
 
-Hyeonbin Hwang, Soyeon Kim, Wei-Jin Park, Jiho Seo, Kyungtae Ko, Hyeon Yeo
+Hyeonbin Hwang, Soyeon Kim, Wei-Jin Park, Jiho Seo, Kyungtae Ko, Hyeon Yeo <br/>
 KAIST and Acryl, Republic of Korea
 
 **Accepted to IEEE ICASSP 2022.**
 
 
-**Abstract**: When it comes to wild conditions, Facial Expression Recognition is often challenged with low-quality data and imbalanced, ambiguous labels. This field has much benefited from CNN based approaches; however, CNN models have structural limitation to see the facial regions in distant. As a remedy, Transformer has been introduced to vision fields with global receptive field, but requires adjusting input spatial size to the pretrained models to enjoy their strong inductive bias at hands. We herein raise a question whether using the deterministic interpolation method is enough to feed low-resolution data to Transformer. In this work, we propose a novel training framework, Neural Resizer, to support Transformer by compensating information and downscaling in a data-driven manner trained with loss function balancing the noisiness and imbalance. Experiments show our Neural Resizer with FPDLS loss function improves the performance with Transformer variants in general and nearly achieves the state-ofthe-art performance.
+**Abstract**: When it comes to wild conditions, Facial Expression Recognition is often challenged with low-quality data and imbalanced, ambiguous labels. This field has much benefited from CNN based approaches; however, CNN models have structural limitation to see the facial regions in distant. As a remedy, Transformer has been introduced to vision fields with global receptive field, but requires adjusting input spatial size to the pretrained models to enjoy their strong inductive bias at hands. We herein raise a question whether using the deterministic interpolation method is enough to feed low-resolution data to Transformer. In this work, we propose a novel training framework, Neural Resizer, to support Transformer by compensating information and downscaling in a data-driven manner trained with loss function balancing the noisiness and imbalance. Experiments show our Neural Resizer with F-PDLS loss function improves the performance with Transformer variants in general and nearly achieves the state-of-the-art performance.
 
 
 
