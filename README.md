@@ -1,8 +1,8 @@
-# Vision Transformer Equipped with Nerual Resizer on Facial Expression Recognition Task 
+# Vision Transformer Equipped with Neural Resizer on Facial Expression Recognition Task 
 ---
 Paper: https://arxiv.org/abs/2204.02181
 
-**Pytorch implemenatation of Vision Transformer Equipped with Nerual Resizer on Facial Expression Recognition Task**
+**Pytorch implemenatation of Vision Transformer Equipped with Neural Resizer on Facial Expression Recognition Task**
 
 Hyeonbin Hwang, Soyeon Kim, Wei-Jin Park, Jiho Seo, Kyungtae Ko, Hyeon Yeo <br/>
 KAIST and Acryl, Republic of Korea
